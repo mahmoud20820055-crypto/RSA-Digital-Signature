@@ -1,7 +1,7 @@
 # RSA Digital Signature in Java
 
-**Software Security (SDEV 4303) – Chapter 2: Cryptographic Tools – Programming Task**
-**Student:** Mahmoud Basel AL-Juaidi – **ID:** 120230589
+**Software Security (SDEV 4303) – Chapter 2: Cryptographic Tools – Programming Task**  
+**Student:** Mahmoud Basel AL-Juaidi – **ID:** 120230589  
 **Teacher:** Dr. Abdelkareem Alashqar – Islamic University of Gaza – 2026/2027
 
 ## What is inside
