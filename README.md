@@ -8,9 +8,10 @@
 
 | File | What it does |
 |------|--------------|
-| `src/RSADigitalSignature.java` | RSA signature written by hand with `BigInteger` (key generation, SHA-256 hash, sign, verify, and two tampering tests). |
-| `src/JavaBuiltInSignature.java` | The same thing using Java's built-in `Signature` class (`SHA256withRSA`). |
-| `screenshots/` | Screenshots of the program output. |
+| `src/Book/RSADigitalSignature.java` | RSA signature written by hand with `BigInteger` (key generation, SHA-256 hash, sign, verify, and two tampering tests). |
+| `src/Book/JavaBuiltInSignature.java` | The same thing using Java's built-in `Signature` class (`SHA256withRSA`). |
+| `screenshots/` | Screenshots of running the programs in NetBeans. |
+| `report/` | The assignment report (PDF). |
 
 ## How it works (short)
 
@@ -23,10 +24,13 @@ If someone changes the message or the signature, the two hashes don't match, so 
 
 ## How to run
 
+**NetBeans:** put the two files in a package called `Book`, then right-click a file → *Run File* (Shift+F6).
+
+**Command line:**
 ```bash
-javac -d out src/*.java
-java -cp out RSADigitalSignature
-java -cp out JavaBuiltInSignature
+javac -d out src/Book/*.java
+java -cp out Book.RSADigitalSignature
+java -cp out Book.JavaBuiltInSignature
 ```
 
 Requires JDK 8 or newer (no extra libraries).
